@@ -194,17 +194,17 @@ public class linked_list {
 				t2=t2.next;
 			}
 		}
-//		while(t1!=null)
-//	{
-//		result.addLast(t1.data);
-//			t1=t1.next;
-//		}
-//	while(t2!=null)
-//		{
-//		result.addLast(t2.data);
-//			t2=t2.next;
-//		}
-//		
+		while(t1!=null)
+	{
+		result.addLast(t1.data);
+			t1=t1.next;
+		}
+	        while(t2!=null)
+		{
+		result.addLast(t2.data);
+			t2=t2.next;
+		}
+		
 		return result.head;
 	}
 	}
